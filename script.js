@@ -4,12 +4,12 @@ function getFormvalue() {
 	const firstName = name[0].value;
 	const lastName = name[1].value;
 	let btn = name[2];
-	btn.addEventListener('click' , () =>{
-		return alert(firstName+" "+lastName);
-	} )
+	return alert(firstName+" "+lastName);
 	
+	// btn.addEventListener('click' , () =>{
+	// 	return alert(firstName+" "+lastName);
+	// } )
 	
-	
+	}
 
-}
 
